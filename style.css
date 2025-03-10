@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('../img/love.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.main-container{
+    width: 600px;
+    height: 350px;
+    background-color: #ebd0b8;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.main-container h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: #D22222;
+    margin-bottom: 20px;
+}
+.container{
+    width:550px;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+.container .heart-img-container #heart-img {
+    width: 100px;
+    height: auto;
+    position: relative;
+}
+.container .heart-img-container button{
+    position: absolute;
+    top: 15%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    background-color: #D22222;
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.5);
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
+.container .heart-img-container button:hover{
+    background-color: #FF0000;  
+}
+.container .your-name-container #your-name, .container .crush-name-container #crush-name {
+    width: 90%;
+    height: 40px;
+    border: none;
+    box-shadow: 0 0 5px rgba(210, 34, 34, 0.79);
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+input::placeholder{
+    font-size: 14px;
+    font-weight: bold;
+    color: #9e9292;
+}
+.result-container h2{
+    font-size: 25px;
+    font-weight: bold;
+    color: #D22222;
+    margin-top: 20px;
+}
